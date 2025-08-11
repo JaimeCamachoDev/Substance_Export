@@ -18,7 +18,7 @@ OPCIONAL Textura 4 - Emissive, canales RGB
 
 ## Substance Export Template
 
-C:\Users\jacam\OneDrive\Documentos\Adobe\Adobe Substance 3D Painter\assets\export-presets
+C:\Program Files\Adobe\Adobe Substance 3D Painter\resources\starter_assets
 Colocar aquí los archivos de ajustes preestablecidos (*.spexp) que se van a utilizar como ajustes preestablecidos de exportación
 
 ![Screenshot_2](https://github.com/user-attachments/assets/04e4d969-f9b6-48ff-bdf2-724f9a1f6347)
