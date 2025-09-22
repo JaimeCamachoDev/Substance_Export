@@ -4,6 +4,12 @@
 
 ![Screenshot_1](https://github.com/user-attachments/assets/f93f22be-358d-40f6-a7fe-5beb27589b9d)
 
+C:\Users\Jairo\Documents\Adobe\Adobe Substance 3D Painter\assets\export-presets
+
+
+
+
+
 Shader para UNity URP 
 Sistema MAS /MASAE: Se extraerán 3 texturas por material, (4 si este tiene emisivo)
 Textura 1 - MainTex , canales RGB, A si tiene opacidad (MASAE)
