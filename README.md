@@ -27,7 +27,7 @@ Colocar aquí los archivos de ajustes preestablecidos (*.spexp) que se van a uti
 
 # Shader URP Lit
 
-<img width="838" height="649" alt="image" src="https://github.com/user-attachments/assets/96a5091b-0fd7-4b8a-8581-5ae9f41ca6b1" />
+<img width="868" height="687" alt="image" src="https://github.com/user-attachments/assets/2e3b75a4-59dd-4c60-849f-2f848b3ea4da" />
 
 🎨 Exportación de texturas para Unity URP/Lit
 
