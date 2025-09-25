@@ -4,13 +4,7 @@
 
 ![Screenshot_1](https://github.com/user-attachments/assets/f93f22be-358d-40f6-a7fe-5beb27589b9d)
 
-### C:\Users\Jairo\Documents\Adobe\Adobe Substance 3D Painter\assets\export-presets
-
-
-
-
-
-Shader para UNity URP 
+Shader para Unity URP 
 Sistema MAS /MASAE: Se extraerán 3 texturas por material, (4 si este tiene emisivo)
 Textura 1 - MainTex , canales RGB, A si tiene opacidad (MASAE)
 Textura 2 - M.A.S.
@@ -33,7 +27,7 @@ Colocar aquí los archivos de ajustes preestablecidos (*.spexp) que se van a uti
 
 # Shader URP Lit
 
-<img width="868" height="687" alt="image" src="https://github.com/user-attachments/assets/2e3b75a4-59dd-4c60-849f-2f848b3ea4da" />
+<img width="849" height="686" alt="image" src="https://github.com/user-attachments/assets/d72543f5-ce86-418b-8659-7b0f2b784b14" />
 
 🎨 Exportación de texturas para Unity URP/Lit
 
@@ -46,11 +40,12 @@ Cada material exporta las siguientes texturas:
   - A: Opacidad (para materiales con transparencia o alpha clip)
   - Import en Unity: sRGB activado
 
-## MetallicGlossMap (_MetallicGlossMap)
+## MaskMap  (_MetallicGlossMap)
 
   - R: Metallic
+  - G: sin uso
+  - B: Ambient Occlusion
   - A: Smoothness (1 – Roughness)
-  - G/B: sin uso
   - Import en Unity: sRGB desactivado
   - En el material Lit: fijar Smoothness Source = Metallic Alpha
 
@@ -58,12 +53,6 @@ Cada material exporta las siguientes texturas:
 
   - RGB: Normal map en espacio tangente (DirectX, canal verde no invertido)
   - Import en Unity: marcar como Normal Map (Unity fuerza sRGB off)
-
-## OcclusionMap (_OcclusionMap)
-
-  - G: Ambient Occlusion (Unity lo lee del canal verde)
-  - R/B: negro o blanco
-  - Import en Unity: sRGB desactivado
 
 ## EmissionMap (_EmissionMap) (opcional)
 
