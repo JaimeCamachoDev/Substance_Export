@@ -61,8 +61,19 @@ OPCIONAL Textura 4 - Emissive, canales RGB
 
 ## Substance Export Template
 
-C:\Program Files\Adobe\Adobe Substance 3D Painter\resources\starter_assets
-Colocar aquí los archivos de ajustes preestablecidos (*.spexp) que se van a utilizar como ajustes preestablecidos de exportación
+Copia los presets de exportación (`Export Substance/*.spexp`) en la carpeta de presets de usuario de Substance 3D Painter:
+
+```
+%USERPROFILE%\Documents\Adobe\Adobe Substance 3D Painter\assets\export-presets
+```
+
+(Si tienes Documentos en OneDrive, la ruta empieza por `%USERPROFILE%\OneDrive\Documentos\…`). Reinicia Painter y aparecerán en **File → Export Textures → Output Templates**.
+
+Los shaders de Unity están en `MAS_Shader/` (`VZ_MAS.shadergraph` y `VZ_MASAE.shadergraph`) y `Resources/MeetMat.fbx` sirve para probarlos.
 
 ![Screenshot_2](https://github.com/user-attachments/assets/04e4d969-f9b6-48ff-bdf2-724f9a1f6347)
 ![Screenshot_3](https://github.com/user-attachments/assets/1aeb12aa-dd70-42aa-806e-e852e9ad1f77)
+
+## Licencia
+
+[MIT](LICENSE)
